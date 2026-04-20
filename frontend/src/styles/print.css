@@ -1,0 +1,22 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #nota-fiscal,
+  #nota-fiscal * {
+    visibility: visible;
+  }
+
+  #nota-fiscal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  @page {
+    size: 80mm auto;
+    margin: 5mm;
+  }
+}
