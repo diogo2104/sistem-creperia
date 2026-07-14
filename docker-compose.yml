@@ -12,7 +12,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
-  backend:
+  backend: 
     build: ./backend
     container_name: creperia_backend
     working_dir: /app
