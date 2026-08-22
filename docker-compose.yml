@@ -3,7 +3,8 @@
     image: postgres:16
     container_name: creperia_db
     restart: always
-    environment:    
+    environment:     s
+     
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres      
       POSTGRES_DB: creperia_development   
