@@ -5,7 +5,7 @@
     restart: always
     environment:     s 
                
-      POSTGRES_USER: postgres     
+      POSTGRES_USER: postgres      
       POSTGRES_PASSWORD: postgres      
       POSTGRES_DB: creperia_development   
     ports:         
