@@ -1,6 +1,6 @@
  services:
   db:
-    image: postgres:16      
+    image: postgres:16       
     container_name: creperia_db 
     restart: always 
     environment:     s         
