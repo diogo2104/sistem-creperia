@@ -2,7 +2,7 @@
   db:
     image: postgres:16  
     container_name: creperia_db
-    restart: always
+    restart: always 
     environment:     s         
                       
       POSTGRES_USER: postgres                 
