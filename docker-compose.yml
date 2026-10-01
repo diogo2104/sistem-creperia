@@ -6,7 +6,7 @@
     environment:     s               
                               
       POSTGRES_USER: postgres                   
-      POSTGRES_PASSWORD: postgres         
+      POSTGRES_PASSWORD: postgres          
       POSTGRES_DB: creperia_development   
     ports:         
       - "5432:5432"     
