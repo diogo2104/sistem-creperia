@@ -4,7 +4,7 @@ ruby "3.3.0"
 
 # Framework
 gem "rails", "~> 8.1.0"
-
+ 
 # Banco de dados
 gem "pg", "~> 1.5"
 
